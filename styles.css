@@ -1,0 +1,17 @@
+.title{
+    background-color: cadetblue;
+    color: darkmagenta;
+    padding-bottom: 0%;
+    
+}
+img{
+    border-radius: 50%;
+    padding-top: 0%;
+
+}
+label{
+    padding-left: 30%;
+}
+input{
+    padding-right: 20%;
+}
