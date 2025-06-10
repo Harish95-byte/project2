@@ -1,17 +1,12 @@
-.title{
-    background-color: cadetblue;
-    color: darkmagenta;
-    padding-bottom: 0%;
-    
+.start{
+    height: 60px;
+    background-color: black;
 }
 img{
-    border-radius: 50%;
-    padding-top: 0%;
-
+    width: 100px;
+    height: 60px;
+    float: left;
 }
-label{
-    padding-left: 30%;
-}
-input{
-    padding-right: 20%;
+select{
+    float: left;    
 }
