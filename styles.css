@@ -1,12 +1,136 @@
-.start{
-    height: 60px;
-    background-color: black;
+body
+{
+    margin: 0;
+    font-family: Arial, sans-serif;
+ }
+
+    .top-bar {
+      background-color: #131921;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .logo {
+      width: 100px;
+    }
+
+    .logo img {
+      width: 100%;
+    }
+
+    .search-bar {
+      flex-grow: 1;
+      margin: 0 20px;
+      display: flex;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 8px;
+      border: none;
+      font-size: 16px;
+    }
+
+    .search-bar button {
+      padding: 8px 15px;
+      background-color: #febd69;
+      border: none;
+      cursor: pointer;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-links div {
+      text-align: center;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .nav-links i {
+      margin-right: 5px;
+    }
+    ul{
+        display: flex;
+        gap: 15px;
+        list-style-type: none;
+        background-color: black;
+        height: 50px;
+        align-items: center;
+        margin: 0;
+    }
+    a{
+        color: white;
+    }
+    .background{
+        background-color: gray;
+    }
+
+    .img1 img{
+      width:1468px;
+    }
+.imagecontainer {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 300px 300px 20px 400px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+ 
+  
 }
+.imagecontainer div {
+      margin: 0;
+      padding: 0;
+    }
 img{
-    width: 100px;
-    height: 60px;
-    float: left;
+  width: 300px;
+  margin: 0;
 }
-select{
-    float: left;    
+body{
+  background-color:lightgray;
+  height: 2000px;
 }
+.imagecontainer img{
+  margin: 0;
+  display:block;
+  padding: 0;
+}
+.loginbox {
+      display: flex;
+      padding: 20px 40px;
+      flex-direction: column;
+      padding: 20px 40px;
+     background-color: white;
+      color:black;
+      border-radius: 8px;
+      font-size: 24px;
+      font-weight: bold;
+      width: 400px;
+      height: 150px;
+      text-align: center;
+      margin-top:-150px;
+      justify-self: center;
+      margin: 50px auto;
+}
+    .login{
+      background-color: #febd69;
+      color: black;
+      width: 250px;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: 100;
+      text-align: center;
+      justify-items: center;
+      margin-left: 20px;
+      position: relative;
+      left: 60px;
+      margin-top: 15px;
+    }
+    .gridspacer{
+      width: 50px;
+    }
