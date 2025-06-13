@@ -137,3 +137,103 @@ body
   padding: 50px;
   padding-left: 200px;
 }
+.images9{
+  background-color: lightgrey;
+  cursor: pointer;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+.images10{
+  background-color: lightgrey;
+  padding: 10px;
+  cursor: pointer;
+}
+.images11 {
+  background-color: lightgray;
+  display: flex;
+  padding: 10px;
+}
+iframe{
+  margin-left: -600px;
+  padding: 50px;
+}
+.images11 div{
+  padding-top: 50px;
+  margin-left: -50px;
+  cursor: pointer;
+}
+.images12{
+  background-color: lightgray;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  cursor: pointer;
+}
+.images13{
+  background-color: lightgray;
+  padding: 10px;
+  cursor: pointer;
+}
+.images14{
+ 
+  padding: 20px;
+  cursor: pointer;
+}
+.images14 h2{
+  text-align: center;
+  font-size: 30px;
+}
+.harish{
+  background-color: #febd69;
+  color: black;
+  text-align: center;
+  border-radius: 50px;
+  width: 250px;
+  height: 20px;
+  padding:5px 20px;
+  font-size: 14px;
+  margin-left: 550px;
+}
+.images14 p{
+  margin-left: 625px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.sal{
+  background-color: rgb(44, 75,114);
+  color: white;
+  height: 10px;
+  text-align: center;
+  padding: 30px 20px;
+}
+.gang{
+  background-color: rgb(26, 45, 76);
+  display: flex;
+  padding: 50px;
+  gap: 150px;
+  color: white;
+}
+.line{
+  background-color: rgb(26, 45, 76);
+  height: 200px;
+  position: absolute;
+  top: 6480px;
+  width: 1468px;
+}
+.line img{
+  padding: 50px;
+  padding-left: 500px;
+}
+.sur{
+  color: white;
+  padding-left: 700px;
+  position: absolute;
+  top: 70px;
+}
+.ind{
+  color: white;
+  padding-left: 830px;
+  position: absolute; 
+  top: 70px;
+}
