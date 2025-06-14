@@ -206,6 +206,7 @@ iframe{
   height: 10px;
   text-align: center;
   padding: 30px 20px;
+  cursor: pointer;
 }
 .gang{
   background-color: rgb(26, 45, 76);
@@ -213,6 +214,7 @@ iframe{
   padding: 50px;
   gap: 150px;
   color: white;
+  cursor: pointer;
 }
 .line{
   background-color: rgb(26, 45, 76);
@@ -220,20 +222,39 @@ iframe{
   position: absolute;
   top: 6480px;
   width: 1468px;
+  cursor: pointer;
 }
 .line img{
   padding: 50px;
   padding-left: 500px;
+  cursor: pointer;
 }
 .sur{
   color: white;
   padding-left: 700px;
   position: absolute;
   top: 70px;
+  cursor: pointer;
 }
 .ind{
   color: white;
   padding-left: 830px;
   position: absolute; 
   top: 70px;
+  cursor: pointer;
+}
+.last{
+ 
+  display: flex;
+  padding: 200px;
+  gap: 80px;
+  background-color: black;
+  color: white;
+  
+}
+.last1{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  padding-left: 450px;
 }
