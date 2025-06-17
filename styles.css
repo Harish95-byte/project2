@@ -11,7 +11,15 @@ body
       align-items: center;
       padding: 10px 20px;
     }
-
+    .border1:hover{
+      border: 1px solid white;
+    }
+    .border2:hover{
+      border: 1px solid white;
+    }
+    .border3:hover{
+      border: 1px solid white;
+    }
     .logo {
       width: 100px;
     }
