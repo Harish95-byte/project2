@@ -270,3 +270,6 @@ iframe{
   padding: 10px;
   padding-left: 450px;
 }
+ul,li:hover{
+  border: 1px solid white;
+}
