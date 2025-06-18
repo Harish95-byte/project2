@@ -13,7 +13,12 @@
             top: 10px;
             cursor: pointer;
         }
+       body{
+        background-color: #222222;
+        height: 1000px;
+        overflow: hidden;
        
+       }
         li{
             color: white;
         }
@@ -53,6 +58,50 @@
            margin-left: 1300px;
            top: -160px;
         }
+        .logo3 img{
+            position: relative;
+            width: 30px;
+            margin-left: 1360px;
+            top: -240px;
+            cursor: pointer;
+        }
+        .imageslide{
+           margin: auto;
+           position: relative;
+           top: -10px;
+        }
+        .trend h2{
+            position: relative;
+            top: 220px;
+            margin-left: 100px;
+        }
+        .popular{
+            position: relative;
+            top: 200px;
+            gap: 40px;
+            display: flex;
+            flex-direction:row;
+        }
+        .img2{
+            margin-left: -1200px;
+        }
+        .img1{
+            margin-left: 100px;
+        }
+        .img3{
+            margin-left: -1200px;
+        }
+        .img4{
+            margin-left: -1200px;
+        }
+        .img5{
+            margin-left: -1200px;
+        }
+        .popular img:hover{
+            z-index: 10;
+            width: 300px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -82,6 +131,30 @@
             </div>
             
         </div>
-    </div>
+        <div class="imageslide">
+            
+                <img src="vx1.png" alt="" style="width: 1466px;">
+            
+        </div>
+        <div class="trend">
+            <h2 style="color: white;">Trending top 10</h2>
+        </div>
+        <div class="popular">
+            <div class="img1">
+                <img src="t1.png" alt="">
+            </div>
+            <div class="img2">
+                <img src="t2.png" alt="">
+            </div>
+            <div class="img3">
+                <img src="t3.png" alt="">
+            </div>
+            <div class="img4">
+                <img src="t4.png" alt="">
+            </div>
+            <div class="img5">
+                <img src="t5.png" alt="">
+            </div>
+        </div>
 </body>
 </html>
